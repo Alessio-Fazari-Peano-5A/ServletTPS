@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Esempio di Servlet con Post </title>
+</head>
+
+<body>
+  <form action="classes/Post" method="POST">
+    <p><strong>
+        <font color="#0000FF" size="4" face="Arial, Helvetica, sans-serif">
+          Esempio di utilizzo delle servlet con textbox e POST</font>
+      </strong></p>
+    <p>Inserisci il tuo nome e clicca sul pulsante per inviare i dati alla servlet <font color="#FF0000">POST</font>
+    </p>
+    <p>
+      <input name="nome" type="text" value="Alessio">
+    </p>
+    <p>
+      <input name="cognome" type="text" id="cognome" value="Fazari">
+      <br>
+      <br>
+      <input TYPE="submit" VALUE="Submit">
+      <input TYPE="reset">
+    </p>
+    <p><strong>Nota</strong>: viene restituita una pagina <font color="#FF0000">HTML</font>
+      generata dalla servlet <font color="#FF0000">Post.java</font>
+    </p>
+  </form>
+</body>
+
+</html>
